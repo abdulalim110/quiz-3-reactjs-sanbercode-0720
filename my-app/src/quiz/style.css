@@ -1,0 +1,69 @@
+body {
+    background-image: url(./pattern.jpg);
+    font-family: serif;
+    margin: 0px;
+    height:100%;
+}
+a:link{
+    text-decoration: none;
+}
+header {
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    position: relative;
+    top: 100px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+h3{
+    color: purple;
+}
+
+article {
+    border-bottom: 1px solid lightgrey;
+}
+
+h5 {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 50px;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+}
